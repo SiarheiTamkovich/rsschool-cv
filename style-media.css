@@ -1,0 +1,79 @@
+@media screen and (min-width: 1024px) and (max-width: 1450px) {
+  /* Target planshet, landskape */
+
+  .all-doc {
+    width: 1024px;
+  }
+
+  .nav-block {
+    padding-left: 10%;
+    padding-top: 60px;
+  }
+
+  .info-block {
+    justify-content: flex-start;
+  }
+
+  .photo {
+    left: 150px;
+    top: 70px;
+  }
+
+  .page {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .contacts, .info {
+    width: 95%;
+    padding-left: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .contacts-name,
+  .contacts-list,
+  .info-block {
+    width: 48%;
+  }
+
+  .contacts-name {
+    margin-top: 200px;
+  }
+  
+  .hr-size {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* Target smartphones, landskape */
+  
+  .all-doc {
+    width: 420px;
+  }
+
+  .nav-block {
+    display: none;
+  }
+  
+  .photo {
+    left: 88px;
+    top: 70px;
+  }
+
+  .page {
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  .contacts, .info {
+    width: 100%;
+  }
+
+  .ham {
+    display: block;
+  }
+  
+
+}
