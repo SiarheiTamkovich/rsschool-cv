@@ -126,6 +126,7 @@ li {
  }
  
  .nav__link:hover {
+  margin-top: -2px;
   color:rgb(255, 121, 72);
   border-bottom:  2px solid rgb(255, 121, 72);
 
